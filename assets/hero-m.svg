@@ -1,0 +1,183 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1125" width="900" height="1125" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Emerald silk folds with a champagne drape, embroidery, thread and measuring tape">
+  <defs>
+    <linearGradient id="mbg" x1="0" y1="0" x2=".9" y2="1">
+      <stop offset="0" stop-color="#041210"/>
+      <stop offset=".42" stop-color="#0A2A24"/>
+      <stop offset="1" stop-color="#174A3E"/>
+    </linearGradient>
+    <linearGradient id="mFold" x1="0" y1="0" x2=".9" y2="1">
+      <stop offset="0" stop-color="#1F5A4B"/>
+      <stop offset=".55" stop-color="#0E352D"/>
+      <stop offset="1" stop-color="#061C18"/>
+    </linearGradient>
+    <linearGradient id="mSheen" x1="0" y1="0" x2="1" y2=".3">
+      <stop offset="0" stop-color="#63A98F" stop-opacity="0"/>
+      <stop offset=".5" stop-color="#63A98F" stop-opacity=".5"/>
+      <stop offset="1" stop-color="#2C6B59" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="mSilk" x1=".1" y1="0" x2=".9" y2="1">
+      <stop offset="0" stop-color="#F4E5C1"/>
+      <stop offset=".3" stop-color="#E3CDA0"/>
+      <stop offset=".55" stop-color="#C5A46C"/>
+      <stop offset=".78" stop-color="#DCC493"/>
+      <stop offset="1" stop-color="#A98751"/>
+    </linearGradient>
+    <linearGradient id="mSilkLight" x1="0" y1="0" x2=".6" y2="1">
+      <stop offset="0" stop-color="#FFF6DE" stop-opacity=".85"/>
+      <stop offset=".6" stop-color="#F3DFB6" stop-opacity=".2"/>
+      <stop offset="1" stop-color="#C5A46C" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="mSilkShade" x1="0" y1="0" x2="1" y2=".6">
+      <stop offset="0" stop-color="#6F4F26" stop-opacity=".5"/>
+      <stop offset=".6" stop-color="#8C6938" stop-opacity=".18"/>
+      <stop offset="1" stop-color="#4A3214" stop-opacity=".5"/>
+    </linearGradient>
+    <linearGradient id="mTape" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#B4935F"/>
+      <stop offset=".5" stop-color="#F0DFB7"/>
+      <stop offset="1" stop-color="#B4935F"/>
+    </linearGradient>
+    <radialGradient id="mPearl" cx=".35" cy=".3" r=".8">
+      <stop offset="0" stop-color="#FFFDF6"/>
+      <stop offset=".55" stop-color="#EFE2C8"/>
+      <stop offset="1" stop-color="#B39A70"/>
+    </radialGradient>
+    <radialGradient id="mGlow" cx=".5" cy=".5" r=".5">
+      <stop offset="0" stop-color="#BCE3CE" stop-opacity=".22"/>
+      <stop offset="1" stop-color="#BCE3CE" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="mVignette" cx=".5" cy=".44" r=".78">
+      <stop offset=".4" stop-color="#03110F" stop-opacity="0"/>
+      <stop offset="1" stop-color="#03110F" stop-opacity=".85"/>
+    </radialGradient>
+    <linearGradient id="mBottom" x1="0" y1=".2" x2="0" y2="1">
+      <stop offset="0" stop-color="#03110F" stop-opacity="0"/>
+      <stop offset=".65" stop-color="#03110F" stop-opacity=".5"/>
+      <stop offset="1" stop-color="#03110F" stop-opacity=".9"/>
+    </linearGradient>
+    <filter id="mb20"><feGaussianBlur stdDeviation="20"/></filter>
+    <filter id="mb38"><feGaussianBlur stdDeviation="38"/></filter>
+    <filter id="mb8"><feGaussianBlur stdDeviation="8"/></filter>
+    <filter id="mb2"><feGaussianBlur stdDeviation="1.4"/></filter>
+    <filter id="mGrain">
+      <feTurbulence type="fractalNoise" baseFrequency=".9" numOctaves="3" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer><feFuncA type="linear" slope=".34"/></feComponentTransfer>
+    </filter>
+    <g id="mBloom">
+      <g fill="#E8D3A0" fill-opacity=".1" stroke="#EBD7A6" stroke-width="1.4">
+        <ellipse cx="0" cy="-10" rx="3.6" ry="10"/>
+        <ellipse cx="0" cy="-10" rx="3.6" ry="10" transform="rotate(45)"/>
+        <ellipse cx="0" cy="-10" rx="3.6" ry="10" transform="rotate(90)"/>
+        <ellipse cx="0" cy="-10" rx="3.6" ry="10" transform="rotate(135)"/>
+        <ellipse cx="0" cy="-10" rx="3.6" ry="10" transform="rotate(180)"/>
+        <ellipse cx="0" cy="-10" rx="3.6" ry="10" transform="rotate(225)"/>
+        <ellipse cx="0" cy="-10" rx="3.6" ry="10" transform="rotate(270)"/>
+        <ellipse cx="0" cy="-10" rx="3.6" ry="10" transform="rotate(315)"/>
+      </g>
+      <circle r="3.8" fill="#F7EBCB"/>
+      <circle r="1.4" cx=".8" cy="-.8" fill="#FFFDF4"/>
+    </g>
+    <g id="mLeaf">
+      <path d="M0 0C12 -7 23 -4 30 5C21 14 8 13 0 0Z" fill="#D8BE8A" fill-opacity=".1" stroke="#DCC796" stroke-width="1.1"/>
+      <path d="M3 2C11 2 19 4 26 6" fill="none" stroke="#DCC796" stroke-width=".8" opacity=".8"/>
+    </g>
+  </defs>
+
+  <rect width="900" height="1125" fill="url(#mbg)"/>
+  <ellipse cx="240" cy="150" rx="420" ry="380" fill="url(#mGlow)"/>
+  <ellipse cx="700" cy="960" rx="360" ry="260" fill="#D8BE8A" opacity=".07" filter="url(#mb38)"/>
+
+  <!-- emerald silk -->
+  <path d="M-90 0H470C390 150 510 300 410 450C310 600 460 740 360 880C260 1020 380 1080 360 1140H-90Z" fill="url(#mFold)" opacity=".92"/>
+  <path d="M-90 330C100 250 210 400 360 300C470 228 520 260 620 210L620 1130H-90Z" fill="#08231E" opacity=".55" filter="url(#mb20)"/>
+  <path d="M-50 180C110 270 160 90 320 180C460 258 500 120 640 190" fill="none" stroke="url(#mSheen)" stroke-width="72" filter="url(#mb38)" opacity=".8"/>
+  <path d="M-40 760C130 660 250 800 380 700C500 610 560 640 660 590" fill="none" stroke="#3F8570" stroke-width="2" opacity=".4" filter="url(#mb2)"/>
+  <path d="M-40 790C130 690 250 830 380 730C500 640 560 670 660 620" fill="none" stroke="#081F1A" stroke-width="22" opacity=".4" filter="url(#mb8)"/>
+
+  <!-- champagne drape -->
+  <path d="M498 -80C462 120 556 270 508 430C460 590 548 760 500 1200H760C792 960 712 780 760 620C808 460 730 280 772 -80Z" fill="url(#mSilk)"/>
+  <path d="M532 -80C498 140 590 290 542 450C494 610 580 780 534 1200H598C644 940 562 760 608 600C654 440 578 270 616 -80Z" fill="url(#mSilkShade)" filter="url(#mb8)" opacity=".9"/>
+  <path d="M724 -60C688 150 768 320 720 480C672 640 748 840 706 1200" fill="none" stroke="url(#mSilkLight)" stroke-width="12" filter="url(#mb8)"/>
+  <path d="M758 -50C722 170 802 330 756 490C710 650 782 860 742 1200" fill="none" stroke="#FFF4D8" stroke-width="2" opacity=".5" filter="url(#mb2)"/>
+  <path d="M500 130C474 320 546 440 506 600C466 760 530 960 498 1200" fill="none" stroke="#F4E6C4" stroke-width="1" stroke-dasharray="2 11" opacity=".5"/>
+  <path d="M506 100C482 290 552 430 512 590C472 750 538 960 506 1200" fill="none" stroke="#6B4D24" stroke-width="1.6" opacity=".3"/>
+
+  <!-- embroidery -->
+  <g fill="none" stroke="#8A6836" stroke-width="1.6" opacity=".8">
+    <path d="M586 -20C632 120 564 240 612 370C660 500 588 620 636 750C684 880 608 1000 648 1140"/>
+    <path d="M626 80C666 70 690 52 714 26"/>
+    <path d="M600 240C560 228 534 208 516 180"/>
+    <path d="M628 405C670 394 696 376 718 350"/>
+    <path d="M604 560C564 550 538 530 520 504"/>
+    <path d="M642 730C684 718 708 700 730 674"/>
+    <path d="M620 890C580 880 554 860 536 834"/>
+  </g>
+  <g transform="translate(690 48) rotate(-28)"><use href="#mLeaf"/></g>
+  <g transform="translate(518 194) rotate(198)"><use href="#mLeaf"/></g>
+  <g transform="translate(696 366) rotate(-22)"><use href="#mLeaf"/></g>
+  <g transform="translate(522 518) rotate(200)"><use href="#mLeaf"/></g>
+  <g transform="translate(708 688) rotate(-24)"><use href="#mLeaf"/></g>
+  <g transform="translate(540 848) rotate(202)"><use href="#mLeaf"/></g>
+  <g transform="translate(618 130) scale(1.1)"><use href="#mBloom"/></g>
+  <g transform="translate(592 330) scale(.85)"><use href="#mBloom"/></g>
+  <g transform="translate(640 500)"><use href="#mBloom"/></g>
+  <g transform="translate(600 670) scale(.8)"><use href="#mBloom"/></g>
+  <g transform="translate(648 850)"><use href="#mBloom"/></g>
+  <g transform="translate(530 214) scale(.55)"><use href="#mBloom"/></g>
+  <g transform="translate(720 404) scale(.5)"><use href="#mBloom"/></g>
+
+  <g fill="#D8BE8A" opacity=".5">
+    <circle cx="566" cy="90" r="1.5"/><circle cx="700" cy="220" r="1.2"/><circle cx="572" cy="440" r="1.4"/>
+    <circle cx="716" cy="580" r="1.5"/><circle cx="562" cy="760" r="1.2"/><circle cx="704" cy="940" r="1.3"/>
+  </g>
+
+  <!-- measuring tape -->
+  <g opacity=".9">
+    <path d="M-40 1002C140 930 260 1040 430 990C600 940 680 1010 820 960" fill="none" stroke="#0A2A24" stroke-width="30" opacity=".55" filter="url(#mb8)"/>
+    <path d="M-40 992C140 920 260 1030 430 980C600 930 680 1000 820 950" fill="none" stroke="url(#mTape)" stroke-width="24"/>
+    <path d="M-40 992C140 920 260 1030 430 980C600 930 680 1000 820 950" fill="none" stroke="#6F5129" stroke-width="24" stroke-dasharray="1 14" opacity=".55"/>
+    <path d="M-40 982C140 910 260 1020 430 970C600 920 680 990 820 940" fill="none" stroke="#FFF6DE" stroke-width="1" opacity=".5"/>
+    <path d="M-40 1002C140 930 260 1040 430 990C600 940 680 1010 820 960" fill="none" stroke="#6F5129" stroke-width="1" opacity=".45"/>
+  </g>
+
+  <!-- spool -->
+  <g opacity=".88">
+    <ellipse cx="180" cy="900" rx="66" ry="15" fill="#04110F" opacity=".55" filter="url(#mb8)"/>
+    <path d="M124 790H236V878C236 886 222 892 180 892C138 892 124 886 124 878Z" fill="#0B2B25" stroke="#D8BE8A" stroke-width="1.4"/>
+    <path d="M128 804H232M128 822H232M128 840H232M128 858H232" stroke="#D8BE8A" stroke-width=".9" opacity=".5"/>
+    <ellipse cx="180" cy="790" rx="56" ry="14" fill="#123B32" stroke="#E6D2A2" stroke-width="1.6"/>
+    <ellipse cx="180" cy="790" rx="22" ry="6" fill="#04110F" opacity=".8"/>
+    <path d="M180 790C222 778 248 802 236 826" fill="none" stroke="#E6D2A2" stroke-width="1" opacity=".8"/>
+    <ellipse cx="180" cy="878" rx="56" ry="14" fill="#0A241F" stroke="#C7AE7E" stroke-width="1.2"/>
+  </g>
+
+  <!-- needle and thread -->
+  <g opacity=".9">
+    <path d="M560 792L676 722" stroke="#F6E9C8" stroke-width="3" stroke-linecap="round"/>
+    <path d="M672 725L682 718" stroke="#F6E9C8" stroke-width="3" stroke-linecap="round"/>
+    <ellipse cx="658" cy="735" rx="5.6" ry="2.1" transform="rotate(-31 658 735)" fill="none" stroke="#D8BE8A" stroke-width="1.4"/>
+    <path d="M660 732C612 700 576 736 534 710C492 684 458 702 430 734" fill="none" stroke="#E9D5A6" stroke-width="1.3" opacity=".8"/>
+  </g>
+
+  <!-- pearls -->
+  <g>
+    <circle cx="322" cy="916" r="21" fill="url(#mPearl)"/>
+    <circle cx="322" cy="916" r="6" fill="none" stroke="#8E7449" stroke-width="1" opacity=".55"/>
+    <circle cx="322" cy="916" r="2" fill="#7D643D"/>
+    <circle cx="370" cy="944" r="15" fill="url(#mPearl)"/>
+    <circle cx="370" cy="944" r="4.4" fill="none" stroke="#8E7449" stroke-width=".9" opacity=".5"/>
+    <circle cx="284" cy="952" r="11" fill="url(#mPearl)"/>
+    <circle cx="402" cy="908" r="9" fill="url(#mPearl)"/>
+    <circle cx="338" cy="972" r="6" fill="url(#mPearl)"/>
+  </g>
+
+  <g stroke="#D8BE8A" opacity=".55" fill="none">
+    <path d="M748 1010C766 998 786 1002 804 994" stroke-width="1" stroke-dasharray="4 7"/>
+    <path d="M430 1050C448 1040 466 1044 484 1038" stroke-width="1" stroke-dasharray="4 7"/>
+  </g>
+
+  <rect width="900" height="1125" fill="url(#mVignette)"/>
+  <rect width="900" height="1125" fill="url(#mBottom)"/>
+  <rect width="900" height="1125" filter="url(#mGrain)" opacity=".16" style="mix-blend-mode:overlay"/>
+</svg>

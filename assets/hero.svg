@@ -1,0 +1,194 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" width="1600" height="1000" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Deep emerald silk folds with champagne embroidery, pearl buttons and tailoring tools">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#041210"/>
+      <stop offset=".45" stop-color="#0A2A24"/>
+      <stop offset="1" stop-color="#174A3E"/>
+    </linearGradient>
+    <linearGradient id="emeraldFold" x1="0" y1="0" x2=".8" y2="1">
+      <stop offset="0" stop-color="#1F5A4B"/>
+      <stop offset=".55" stop-color="#0E352D"/>
+      <stop offset="1" stop-color="#061C18"/>
+    </linearGradient>
+    <linearGradient id="emeraldSheen" x1="0" y1="0" x2="1" y2=".4">
+      <stop offset="0" stop-color="#3F8570" stop-opacity="0"/>
+      <stop offset=".5" stop-color="#63A98F" stop-opacity=".55"/>
+      <stop offset="1" stop-color="#2C6B59" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="silk" x1=".1" y1="0" x2=".9" y2="1">
+      <stop offset="0" stop-color="#F4E5C1"/>
+      <stop offset=".3" stop-color="#E3CDA0"/>
+      <stop offset=".55" stop-color="#C5A46C"/>
+      <stop offset=".78" stop-color="#DCC493"/>
+      <stop offset="1" stop-color="#A98751"/>
+    </linearGradient>
+    <linearGradient id="silkLight" x1="0" y1="0" x2=".7" y2="1">
+      <stop offset="0" stop-color="#FFF6DE" stop-opacity=".85"/>
+      <stop offset=".6" stop-color="#F3DFB6" stop-opacity=".22"/>
+      <stop offset="1" stop-color="#C5A46C" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="silkShade" x1="0" y1="0" x2="1" y2=".6">
+      <stop offset="0" stop-color="#6F4F26" stop-opacity=".55"/>
+      <stop offset=".6" stop-color="#8C6938" stop-opacity=".2"/>
+      <stop offset="1" stop-color="#4A3214" stop-opacity=".5"/>
+    </linearGradient>
+    <linearGradient id="tape" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#B4935F"/>
+      <stop offset=".5" stop-color="#F0DFB7"/>
+      <stop offset="1" stop-color="#B4935F"/>
+    </linearGradient>
+    <radialGradient id="pearl" cx=".35" cy=".3" r=".8">
+      <stop offset="0" stop-color="#FFFDF6"/>
+      <stop offset=".55" stop-color="#EFE2C8"/>
+      <stop offset="1" stop-color="#B39A70"/>
+    </radialGradient>
+    <radialGradient id="glow" cx=".5" cy=".5" r=".5">
+      <stop offset="0" stop-color="#BCE3CE" stop-opacity=".28"/>
+      <stop offset="1" stop-color="#BCE3CE" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="vignette" cx=".5" cy=".48" r=".75">
+      <stop offset=".45" stop-color="#03110F" stop-opacity="0"/>
+      <stop offset="1" stop-color="#03110F" stop-opacity=".82"/>
+    </radialGradient>
+    <linearGradient id="leftShade" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#03110F" stop-opacity=".72"/>
+      <stop offset=".45" stop-color="#03110F" stop-opacity=".18"/>
+      <stop offset="1" stop-color="#03110F" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="b20"><feGaussianBlur stdDeviation="20"/></filter>
+    <filter id="b40"><feGaussianBlur stdDeviation="40"/></filter>
+    <filter id="b8"><feGaussianBlur stdDeviation="8"/></filter>
+    <filter id="b2"><feGaussianBlur stdDeviation="1.4"/></filter>
+    <filter id="grain">
+      <feTurbulence type="fractalNoise" baseFrequency=".85" numOctaves="3" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer><feFuncA type="linear" slope=".34"/></feComponentTransfer>
+    </filter>
+    <g id="bloom">
+      <g fill="#E8D3A0" fill-opacity=".1" stroke="#EBD7A6" stroke-width="1.5">
+        <ellipse cx="0" cy="-11" rx="4" ry="11"/>
+        <ellipse cx="0" cy="-11" rx="4" ry="11" transform="rotate(45)"/>
+        <ellipse cx="0" cy="-11" rx="4" ry="11" transform="rotate(90)"/>
+        <ellipse cx="0" cy="-11" rx="4" ry="11" transform="rotate(135)"/>
+        <ellipse cx="0" cy="-11" rx="4" ry="11" transform="rotate(180)"/>
+        <ellipse cx="0" cy="-11" rx="4" ry="11" transform="rotate(225)"/>
+        <ellipse cx="0" cy="-11" rx="4" ry="11" transform="rotate(270)"/>
+        <ellipse cx="0" cy="-11" rx="4" ry="11" transform="rotate(315)"/>
+      </g>
+      <circle r="4.2" fill="#F7EBCB"/>
+      <circle r="1.6" cx="1" cy="-1" fill="#FFFDF4"/>
+    </g>
+    <g id="leaf">
+      <path d="M0 0C14 -8 26 -5 34 6C24 16 9 15 0 0Z" fill="#D8BE8A" fill-opacity=".1" stroke="#DCC796" stroke-width="1.2"/>
+      <path d="M3 2C12 2 22 4 30 7" fill="none" stroke="#DCC796" stroke-width=".8" opacity=".8"/>
+    </g>
+  </defs>
+
+  <rect width="1600" height="1000" fill="url(#bg)"/>
+
+  <!-- ambient light -->
+  <ellipse cx="420" cy="120" rx="620" ry="430" fill="url(#glow)"/>
+  <ellipse cx="1160" cy="860" rx="520" ry="320" fill="#D8BE8A" opacity=".07" filter="url(#b40)"/>
+
+  <!-- emerald silk fields -->
+  <path d="M-120 0H780C640 150 820 270 660 410C500 550 690 650 540 790C400 920 540 1000 520 1060H-120Z" fill="url(#emeraldFold)" opacity=".9"/>
+  <path d="M-120 620C180 500 330 690 600 560C870 430 1040 500 1320 380L1320 1060H-120Z" fill="#08231E" opacity=".75" filter="url(#b20)"/>
+  <path d="M-80 210C190 320 260 120 480 220C700 320 780 160 980 250" fill="none" stroke="url(#emeraldSheen)" stroke-width="90" filter="url(#b40)" opacity=".8"/>
+  <path d="M-80 820C220 690 400 860 650 720C900 580 1080 700 1360 560" fill="none" stroke="#3F8570" stroke-width="2" opacity=".45" filter="url(#b2)"/>
+  <path d="M-60 860C240 730 420 900 670 760C920 620 1100 740 1380 600" fill="none" stroke="#081F1A" stroke-width="26" opacity=".4" filter="url(#b8)"/>
+
+  <!-- champagne silk drape -->
+  <path d="M1010 -80C960 140 1080 290 1015 450C950 610 1060 760 990 1080H1330C1380 840 1280 680 1345 520C1410 360 1310 180 1360 -80Z" fill="url(#silk)"/>
+  <path d="M1060 -80C1012 160 1132 305 1068 465C1004 625 1112 780 1044 1080H1120C1188 800 1080 635 1144 475C1208 315 1088 160 1136 -80Z" fill="url(#silkShade)" filter="url(#b8)" opacity=".9"/>
+  <path d="M1290 -80C1240 160 1350 330 1285 490C1220 650 1300 840 1250 1080" fill="none" stroke="url(#silkLight)" stroke-width="14" filter="url(#b8)"/>
+  <path d="M1338 -60C1290 170 1395 340 1332 500C1269 660 1350 850 1300 1080" fill="none" stroke="#FFF4D8" stroke-width="2" opacity=".55" filter="url(#b2)"/>
+  <path d="M1012 120C982 300 1070 420 1020 570C970 720 1050 860 1012 1040" fill="none" stroke="#6B4D24" stroke-width="2" opacity=".35"/>
+  <path d="M1000 40C970 250 1062 400 1008 560C954 720 1040 880 1000 1080" fill="none" stroke="#F4E6C4" stroke-width="1" stroke-dasharray="2 12" opacity=".55"/>
+
+  <!-- embroidery vine -->
+  <g fill="none" stroke="#8A6836" stroke-width="1.8" opacity=".8">
+    <path d="M1135 -20C1195 110 1108 210 1168 330C1228 450 1142 560 1202 680C1262 800 1172 900 1224 1040"/>
+    <path d="M1180 90C1230 80 1260 60 1288 30"/>
+    <path d="M1150 245C1100 230 1070 208 1048 176"/>
+    <path d="M1188 405C1240 392 1272 372 1296 342"/>
+    <path d="M1160 560C1110 548 1080 526 1058 496"/>
+    <path d="M1208 735C1258 722 1288 702 1312 674"/>
+    <path d="M1172 895C1124 884 1096 864 1076 836"/>
+  </g>
+  <g transform="translate(1256 56) rotate(-28)"><use href="#leaf"/></g>
+  <g transform="translate(1048 192) rotate(198)"><use href="#leaf"/></g>
+  <g transform="translate(1268 362) rotate(-22)"><use href="#leaf"/></g>
+  <g transform="translate(1064 512) rotate(200)"><use href="#leaf"/></g>
+  <g transform="translate(1284 690) rotate(-24)"><use href="#leaf"/></g>
+  <g transform="translate(1084 846) rotate(202)"><use href="#leaf"/></g>
+  <g transform="translate(1176 145) scale(1.25)"><use href="#bloom"/></g>
+  <g transform="translate(1142 330) scale(.9)"><use href="#bloom"/></g>
+  <g transform="translate(1200 505) scale(1.15)"><use href="#bloom"/></g>
+  <g transform="translate(1156 688) scale(.85)"><use href="#bloom"/></g>
+  <g transform="translate(1214 846) scale(1.1)"><use href="#bloom"/></g>
+  <g transform="translate(1058 216) scale(.55)"><use href="#bloom"/></g>
+  <g transform="translate(1288 404) scale(.5)"><use href="#bloom"/></g>
+
+  <!-- scattered stitch stars -->
+  <g fill="#D8BE8A" opacity=".5">
+    <circle cx="1090" cy="120" r="1.7"/><circle cx="1250" cy="240" r="1.3"/><circle cx="1120" cy="430" r="1.5"/>
+    <circle cx="1268" cy="560" r="1.7"/><circle cx="1108" cy="640" r="1.2"/><circle cx="1244" cy="790" r="1.5"/>
+    <circle cx="1128" cy="948" r="1.4"/><circle cx="1300" cy="960" r="1.2"/>
+  </g>
+
+  <!-- measuring tape -->
+  <g opacity=".92">
+    <path d="M-40 912C200 842 356 968 590 904C824 840 940 922 1120 872" fill="none" stroke="#0A2A24" stroke-width="34" opacity=".55" filter="url(#b8)"/>
+    <path d="M-40 900C200 830 356 956 590 892C824 828 940 910 1120 860" fill="none" stroke="url(#tape)" stroke-width="26"/>
+    <path d="M-40 900C200 830 356 956 590 892C824 828 940 910 1120 860" fill="none" stroke="#6F5129" stroke-width="26" stroke-dasharray="1 15" opacity=".55"/>
+    <path d="M-40 890C200 820 356 946 590 882C824 818 940 900 1120 850" fill="none" stroke="#FFF6DE" stroke-width="1" opacity=".5"/>
+    <path d="M-40 910C200 840 356 966 590 902C824 838 940 920 1120 870" fill="none" stroke="#6F5129" stroke-width="1" opacity=".45"/>
+  </g>
+
+  <!-- spool -->
+  <g opacity=".9">
+    <ellipse cx="300" cy="836" rx="82" ry="18" fill="#04110F" opacity=".55" filter="url(#b8)"/>
+    <path d="M232 704H372V816C372 826 356 834 302 834C248 834 232 826 232 816Z" fill="#0B2B25" stroke="#D8BE8A" stroke-width="1.6"/>
+    <path d="M236 720H368M236 740H368M236 760H368M236 780H368M236 800H368" stroke="#D8BE8A" stroke-width="1" opacity=".5"/>
+    <ellipse cx="302" cy="704" rx="70" ry="17" fill="#123B32" stroke="#E6D2A2" stroke-width="1.8"/>
+    <ellipse cx="302" cy="704" rx="28" ry="7" fill="#04110F" opacity=".8"/>
+    <path d="M302 704C352 690 384 720 370 748" fill="none" stroke="#E6D2A2" stroke-width="1.2" opacity=".8"/>
+    <ellipse cx="302" cy="816" rx="70" ry="17" fill="#0A241F" stroke="#C7AE7E" stroke-width="1.4"/>
+  </g>
+
+  <!-- needle and thread -->
+  <g opacity=".92">
+    <path d="M774 806L906 728" stroke="#F6E9C8" stroke-width="3.4" stroke-linecap="round"/>
+    <path d="M902 731L913 724" stroke="#F6E9C8" stroke-width="3.4" stroke-linecap="round"/>
+    <ellipse cx="884" cy="742" rx="6.4" ry="2.4" transform="rotate(-31 884 742)" fill="none" stroke="#D8BE8A" stroke-width="1.6"/>
+    <path d="M887 739C830 700 786 744 736 712C686 680 646 700 612 738" fill="none" stroke="#E9D5A6" stroke-width="1.5" opacity=".8"/>
+    <path d="M612 738C586 762 566 760 548 748" fill="none" stroke="#E9D5A6" stroke-width="1.5" opacity=".5"/>
+  </g>
+
+  <!-- pearl buttons -->
+  <g>
+    <circle cx="452" cy="862" r="25" fill="url(#pearl)"/>
+    <circle cx="452" cy="862" r="7" fill="none" stroke="#8E7449" stroke-width="1" opacity=".55"/>
+    <circle cx="452" cy="862" r="2.4" fill="#7D643D"/>
+    <circle cx="508" cy="894" r="18" fill="url(#pearl)"/>
+    <circle cx="508" cy="894" r="5" fill="none" stroke="#8E7449" stroke-width="1" opacity=".5"/>
+    <circle cx="406" cy="904" r="13" fill="url(#pearl)"/>
+    <circle cx="406" cy="904" r="3.6" fill="none" stroke="#8E7449" stroke-width=".9" opacity=".5"/>
+    <circle cx="552" cy="852" r="10" fill="url(#pearl)"/>
+    <circle cx="352" cy="900" r="8" fill="url(#pearl)"/>
+    <circle cx="478" cy="922" r="7" fill="url(#pearl)"/>
+  </g>
+
+  <!-- tailoring pin and loose stitches -->
+  <g stroke="#D8BE8A" opacity=".6" fill="none">
+    <path d="M700 860L742 884" stroke-width="1.4"/>
+    <circle cx="744" cy="885" r="3" fill="#D8BE8A" stroke="none"/>
+    <path d="M640 930C660 920 680 924 700 918" stroke-width="1" stroke-dasharray="4 7"/>
+    <path d="M880 930C900 920 920 924 940 918" stroke-width="1" stroke-dasharray="4 7"/>
+  </g>
+
+  <!-- atmosphere -->
+  <rect width="1600" height="1000" fill="url(#leftShade)"/>
+  <rect width="1600" height="1000" fill="url(#vignette)"/>
+  <rect width="1600" height="1000" filter="url(#grain)" opacity=".16" style="mix-blend-mode:overlay"/>
+</svg>

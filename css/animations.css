@@ -1,0 +1,62 @@
+/* ============================================================
+   MOTION — keyframes, fallback life, reduced-motion overrides
+   ============================================================ */
+
+/* Fallback life for the hero when WebGL is not used */
+.hero:not(.webgl-active) .hero-img {
+  animation: kenburns 28s var(--ease-soft) infinite alternate;
+}
+
+@keyframes kenburns {
+  0% { transform: scale(1.03) translate3d(0, 0, 0); }
+  100% { transform: scale(1.12) translate3d(-1.2%, -1.6%, 0); }
+}
+
+.hero-scroll-line {
+  animation: scrollThread 2.8s var(--ease-soft) infinite;
+}
+
+@keyframes scrollThread {
+  0% { transform: scaleX(0.2); opacity: 0.4; }
+  45% { transform: scaleX(1); opacity: 1; }
+  100% { transform: scaleX(1); opacity: 0; }
+}
+
+/* Occasion ornament drifts very slowly */
+.occasion-art svg {
+  animation: ornamentDrift 24s ease-in-out infinite alternate;
+}
+
+@keyframes ornamentDrift {
+  from { transform: translateY(-50%) translateX(0); }
+  to { transform: translateY(-52%) translateX(-14px); }
+}
+
+/* Footer lockup: JS draws the strokes, this is the quiet no-JS state */
+.footer-draw { stroke-dasharray: 280; stroke-dashoffset: 0; }
+
+/* Cursor smoothing handles transforms in JS; only state transitions here */
+
+/* Reveal helper (GSAP sets the actual start values) */
+[data-reveal] { will-change: auto; }
+
+/* Reduced motion: everything readable immediately */
+@media (prefers-reduced-motion: reduce) {
+  .hero:not(.webgl-active) .hero-img { animation: none; transform: none; }
+  .hero-canvas { display: none; }
+  .hero-scroll-line { animation: none; }
+  .occasion-art svg { animation: none; }
+  .footer-draw { stroke-dasharray: none; stroke-dashoffset: 0; }
+
+  .statement,
+  .motion .statement { color: var(--emerald-900); }
+
+  .statement-fill,
+  .motion .statement-fill { color: var(--emerald-900); }
+
+  .statement-fill::after,
+  .motion .statement-fill::after { display: none; }
+
+  .chat-bubble,
+  .chat-typing { opacity: 1 !important; transform: none !important; }
+}
